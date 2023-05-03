@@ -1,0 +1,137 @@
+.jobs-container {
+  min-height: 88vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jobs-responsive-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-responsive-container {
+    max-width: 1140px;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.profile-filters-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchfield-jobs-section {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-filters-section {
+    width: 30%;
+  }
+  .searchfield-jobs-section {
+    width: 67%;
+    margin: 0px;
+  }
+}
+
+.searchfield-container {
+  width: 100%;
+  border: 1px solid #b6c5ff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .searchfield-container {
+    width: 60%;
+  }
+}
+.search-field {
+  width: 85%;
+  border: none;
+  outline: none;
+  color: #76858e;
+  background-color: transparent;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .search-field {
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+}
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  flex-grow: 1;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.all-jobs-container {
+  padding-left: 0px;
+}
+
+.failure-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.failure-image {
+  width: 65%;
+}
+.failure-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.failure-description {
+  color: #f1f5f9;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .failure-image {
+    width: 70%;
+  }
+  .failure-heading {
+    font-size: 35px;
+  }
+  .failure-description {
+    font-size: 16px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}

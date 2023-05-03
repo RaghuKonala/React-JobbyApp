@@ -1,0 +1,35 @@
+.similar-jobs-item {
+  list-style-type: none;
+  background-color: #272727;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-item {
+    width: 320px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .similar-jobs-item {
+    margin: 0px;
+    width: 32%;
+  }
+}
+
+.similar-jobs-description-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  flex: 1;
+}
+.similarjobs-header {
+  color: #f8fafc;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}

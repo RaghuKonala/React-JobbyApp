@@ -1,0 +1,120 @@
+.login-page-container {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-responsive-container {
+  background-color: #202020;
+  max-width: 550px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-responsive-container {
+    padding: 50px;
+    width: 100%;
+  }
+}
+
+.website-logo {
+  width: 130px;
+  height: 45px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+}
+.login-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-label {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  line-height: 2;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .input-label {
+    font-size: 15px;
+  }
+}
+
+.input-field {
+  border: 2px solid #2c364c;
+  color: #cbd5e1;
+  background: transparent;
+  padding: 10px 16px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .input-field {
+    padding: 12px 18px;
+    font-size: 18px;
+  }
+}
+
+.login-button {
+  color: #f8fafc;
+  background-color: #6366f1;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .login-button {
+    font-size: 18px;
+    margin-top: 24px;
+    padding: 12px 20px;
+  }
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+  line-height: 3;
+  align-self: start;
+}
+
+@media screen and (min-width: 768px) {
+  .error-message {
+    font-size: 16px;
+  }
+}
